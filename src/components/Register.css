@@ -1,0 +1,35 @@
+.register-container {
+    max-width: 400px !important;
+    /* Limit form width */
+    width: 100%;
+    /* Take full width only up to 400px */
+    margin: 0 auto;
+    /* Center the form horizontally */
+    padding: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Space between fields */
+}
+
+.input-field {
+    width: 100%;
+    /* Ensure input fields don't go beyond the container */
+}
+
+.register-button {
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px !important;
+    /* Ensure the button is full width within the container */
+}
+
+.extra-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
