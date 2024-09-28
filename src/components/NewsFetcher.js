@@ -147,7 +147,7 @@ const NewsFetcher = () => {
                 </Grid>
             ) : (
                 <Typography variant="body1" align="center" color="textSecondary">
-                    No recommendations available at the moment.
+                    Enter a topic to see our recommended articles.
                 </Typography>
             )}
         </Container>
